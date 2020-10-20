@@ -1,1 +1,1 @@
-print('hghjtgjuy')
+a = 10
