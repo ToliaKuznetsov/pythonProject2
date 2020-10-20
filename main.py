@@ -1,1 +1,13 @@
-a = 10
+import turtle
+turtle.goto(22.5,0)
+turtle.right(10)
+turtle.forward(46)
+turtle.goto(45,0)
+turtle.right(10)
+turtle.forward(45)
+turtle.goto(67.5,0)
+turtle.right(10)
+turtle.forward(46)
+turtle.goto(90,0)
+turtle.right(10)
+turtle.forward(45)
