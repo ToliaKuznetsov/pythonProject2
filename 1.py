@@ -1,2 +1,0 @@
-print('hgkgv')
-import turtle
