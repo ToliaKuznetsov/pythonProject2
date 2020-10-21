@@ -33,16 +33,27 @@ def square(x, y, a, angle, color):
     turtle.right(angle)
 
 
-def triangle(x, y, a, ang, c):
+def triangle(x, y, a, b, l, c):
     '''
     Function, drawing triangle.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
-    :param a: side length of a triangle
-    :param ang: angle of a triangle
+    :param a:long side length of a triangle
+    :param b:short side length of a triangle
+    :param l: angle of a triangle
     :param c: color of a triangle
     :return: None
     '''
+turtle.up()
+turtle.setposition(x, y, l)
+turtle.down()
+turtle.forward(b)
+turtle.right(90)
+turtle.forward(b)
+turtle.right(135)
+turtle.forward(a)
+turtle.right(135)
+
 def parallelogram(x, y, a, b, c, r):
     '''
     Function, drawing parallelogram.
