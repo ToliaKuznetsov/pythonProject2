@@ -1,10 +1,12 @@
 # Case-study #1
-# Developers:   Ivanov A. (20%),
-#               Petrova S. (60%),
-#               Sidorov M. (30%)
+# Developers:   Lapochkin D. (0%),
+#               Kuznetsov A. (0%),
+#               Krivoshapova D. (0%)
 import turtle
+
+
 def square(x, y, a, angle, color):
-    '''
+    """
     Function, drawing square.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
@@ -13,7 +15,7 @@ def square(x, y, a, angle, color):
     :param angle: rotation angle of a square (counterclockwise)
     :param color: color of a square
     :return: None
-    '''
+    """
     turtle.up()
     turtle.setposition(x, y)
     turtle.setheading(angle)
@@ -34,7 +36,7 @@ def square(x, y, a, angle, color):
 
 
 def triangle(x, y, a, b, l, c):
-    '''
+    """
     Function, drawing triangle.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
@@ -43,7 +45,9 @@ def triangle(x, y, a, b, l, c):
     :param l: angle of a triangle
     :param c: color of a triangle
     :return: None
-    '''
+    """
+
+
 turtle.up()
 turtle.setposition(x, y, l)
 turtle.down()
@@ -53,6 +57,7 @@ turtle.forward(b)
 turtle.right(135)
 turtle.forward(a)
 turtle.right(135)
+
 
 def parallelogram(x, y, a, b, c, r):
     '''
@@ -80,11 +85,13 @@ def parallelogram(x, y, a, b, c, r):
     turtle.right(45)
     turtle.end_fill()
     turtle.right(r)
+
+
 def main():
-    '''
+    """
     Main function.
     :return: None
-    '''
+    """
 
 
 if __name__ == '__main__':
