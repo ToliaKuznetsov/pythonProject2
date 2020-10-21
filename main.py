@@ -47,15 +47,30 @@ def triangle(x, y, a, ang, c):
 
 
 
-def parallelogram(x, y, a):
+def parallelogram(x, y, a, b, c, r):
     '''
-    Function, drawing square.
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
-    :param a: side length of a square
-    :return: None
+    Function, drawing parallelogram.
+    :param x: upper  obtuse angle coordinate x
+    :param y: upper obtuse angle coordinate y
+    :param a: long side of the parallelogram
+    :param b: short side of the parallelogram
+    :param c: color
+    :param r: degree of rotation relative OX
     '''
-
+    turtle.penup()
+    turtle.color(c)
+    turtle.setposition(x, y)
+    turtle.left(r)
+    turtle.pendown()
+    turtle.forward(a)
+    turtle.right(135)
+    turtle.forward(b)
+    turtle.right(45)
+    turtle.forward(a)
+    turtle.right(135)
+    turtle.forward(b)
+    turtle.right(45)
+    turtle.right(r)
 
 def main():
     '''
