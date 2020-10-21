@@ -16,18 +16,6 @@ def square(x, y, a, angle, color):
 @@ -34,30 +34,27 @@ def square(x, y, a, angle, color):
 
 
-def triangle(x, y, a, ang, c):
-    """
-    Function, drawing triangle.
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
-    :param a: side length of a triangle
-    :param ang: angle of a triangle
-    :param c: color of a triangle
-    :return: None
-    """
-
-
 def parallelogram(x, y, a, b, c, r):
     """
     Function, drawing parallelogram.
