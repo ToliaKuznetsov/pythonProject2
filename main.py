@@ -62,6 +62,7 @@ def parallelogram(x, y, a, b, c, r):
     turtle.setposition(x, y)
     turtle.left(r)
     turtle.pendown()
+    turtle.begin_fill()
     turtle.forward(a)
     turtle.right(135)
     turtle.forward(b)
@@ -70,6 +71,7 @@ def parallelogram(x, y, a, b, c, r):
     turtle.right(135)
     turtle.forward(b)
     turtle.right(45)
+    turtle.end_fill()
     turtle.right(r)
 
 def main():
@@ -77,10 +79,7 @@ def main():
     Main function.
     :return: None
     '''
-    square(-200, 200, 180)
-    square(20, 200, 180)
-    square(20, -20, 180)
-    square(-200, -20, 3456)
+
     turtle.done()
 
 
