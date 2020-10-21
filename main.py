@@ -11,13 +11,13 @@ def square(x, y, a, angle, color):
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
     :param a: side length of a square
-    :param angle: rotation angle of a square
+    :param angle: rotation angle of a square (counterclockwise)
     :param color: color of a square
     :return: None
     '''
     turtle.up()
     turtle.setposition(x, y)
-    turtle.setheading(angle)
+    turtle.left(angle)
     turtle.color(color)
     turtle.down()
     turtle.begin_fill()
@@ -30,6 +30,7 @@ def square(x, y, a, angle, color):
     turtle.forward(a)
     turtle.right(90)
     turtle.end_fill()
+    turtle.right(angle)
 
 
 def triangle(x, y, a, ang, c):
