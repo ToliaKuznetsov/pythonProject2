@@ -6,7 +6,7 @@ import turtle
 
 
 def square(x, y, a, angle, color):
-    '''
+    """
     Function, drawing square.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
@@ -14,7 +14,7 @@ def square(x, y, a, angle, color):
     :param angle: rotation angle of a square (counterclockwise)
     :param color: color of a square
     :return: None
-    '''
+    """
     turtle.up()
     turtle.setposition(x, y)
     turtle.left(angle)
@@ -34,7 +34,7 @@ def square(x, y, a, angle, color):
 
 
 def triangle(x, y, a, ang, c):
-    '''
+    """
     Function, drawing triangle.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
@@ -42,14 +42,11 @@ def triangle(x, y, a, ang, c):
     :param ang: angle of a triangle
     :param c: color of a triangle
     :return: None
-    '''
-
-
-
+    """
 
 
 def parallelogram(x, y, a, b, c, r):
-    '''
+    """
     Function, drawing parallelogram.
     :param x: upper  obtuse angle coordinate x
     :param y: upper obtuse angle coordinate y
@@ -57,7 +54,7 @@ def parallelogram(x, y, a, b, c, r):
     :param b: short side of the parallelogram
     :param c: color
     :param r: degree of rotation relative OX
-    '''
+    """
     turtle.penup()
     turtle.color(c)
     turtle.setposition(x, y)
@@ -75,12 +72,12 @@ def parallelogram(x, y, a, b, c, r):
     turtle.end_fill()
     turtle.right(r)
 
+
 def main():
-    '''
+    """
     Main function.
     :return: None
-    '''
-
+    """
 
 
 if __name__ == '__main__':
