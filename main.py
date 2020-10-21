@@ -93,7 +93,7 @@ def main():
     :return: None
     """
 
-
+играю с переходами, оставлю чтобы отследить
 if __name__ == '__main__':
     main()
     main()
