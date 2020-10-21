@@ -80,7 +80,6 @@ def main():
     :return: None
     '''
 
-    turtle.done()
 
 
 if __name__ == '__main__':
