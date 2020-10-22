@@ -34,7 +34,6 @@ def square(x, y, a, angle, color):
     turtle.right(angle)
 
 
-import turtle
 def triangle(x, y, a, b, ang, c):
     """
     Function, drawing triangle.
@@ -60,16 +59,10 @@ def triangle(x, y, a, b, ang, c):
     turtle.forward(b)
     turtle.right(135)
     turtle.end_fill()
-def main():
-    triangle(1, 2, 10, 20, 0, "red")
-turtle.mainloop()
-if __name__ == '__main__':
-    main()
-
 
 
 def parallelogram(x, y, a, b, c, r):
-    '''
+    """
     Function, drawing parallelogram.
     :param x: upper  obtuse angle coordinate x
     :param y: upper obtuse angle coordinate y
@@ -77,7 +70,7 @@ def parallelogram(x, y, a, b, c, r):
     :param b: short side of the parallelogram
     :param c: color
     :param r: degree of rotation relative OX
-    '''
+    """
     turtle.penup()
     turtle.color(c)
     turtle.setposition(x, y)
@@ -101,6 +94,7 @@ def main():
     Main function.
     :return: None
     """
+
 
 if __name__ == '__main__':
     main()
