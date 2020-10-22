@@ -34,14 +34,12 @@ def square(x, y, a, angle, color):
     turtle.right(angle)
 
 
-def triangle(x, y, a, b, ang, c):
+def triangle(x, y, a, ang, c):
     """
     Function, drawing triangle.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
     :param a: short-side length of a triangle
-    :param b: long-side length of a triangle
-    :param b: long-side length of a triangle
     :param ang: rotation angle of a triangle
     :param c: color of a triangle
     :return: None
@@ -56,7 +54,7 @@ def triangle(x, y, a, b, ang, c):
     turtle.right(90)
     turtle.forward(a)
     turtle.right(135)
-    turtle.forward(b)
+    turtle.forward(a*2**.5)
     turtle.right(135)
     turtle.end_fill()
 
@@ -94,7 +92,7 @@ def main():
     Main function.
     :return: None
     """
-
+triangle(2,5,10,45,'red')
 
 if __name__ == '__main__':
     main()
