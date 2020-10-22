@@ -57,6 +57,7 @@ def triangle(x, y, a, ang, c):
     turtle.forward(a*2**.5)
     turtle.right(135)
     turtle.end_fill()
+    turtle.right(ang)
 
 
 def parallelogram(x, y, a, b, c, r):
@@ -92,7 +93,7 @@ def main():
     Main function.
     :return: None
     """
-triangle(2,5,10,45,'red')
+triangle(2,5,100,60,'red')
 
 if __name__ == '__main__':
     main()
