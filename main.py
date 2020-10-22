@@ -11,7 +11,6 @@ def square(x, y, a, angle, color):
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
     :param a: side length of a square
-    :param angle: rotation angle of a square
     :param angle: rotation angle of a square (counterclockwise)
     :param color: color of a square
     :return: None
