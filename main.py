@@ -34,7 +34,7 @@ def square(x, y, a, angle, color):
     turtle.right(angle)
 
 
-def triangle(x, y, a, b, ang, c):
+
 
 
 def parallelogram(x, y, a, b, c, r):
