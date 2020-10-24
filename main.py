@@ -120,20 +120,20 @@ def rooster():
     parallelogram(-95, -138, 71, 35, -90, '#9CBF4E')
 
 
-def hei():
+def dancer():
     """
     Function, drawing human.
     :return: None
     """
-    square(400, 300, 50, 135, '#FF9A5E')
-    triangle(402,218,80,90,'#FFFF00')
-    triangle(318, 298, 80, 360, '#FF0000')
-    parallelogram(398, 166, 70, 50, 225, '#9CBF4E')
-    triangle(472, 148, 70, 180, '#00B2EE')
-    triangle(376, 138, 40, 270, '#912CEE')
-    triangle(452, 144, 40, 0, '#7D26CD')
+    square(400, 270, 50, 135, '#FF9A5E')
+    triangle(402,188,80,90,'#FFFF00')
+    triangle(318, 268, 80, 360, '#FF0000')
+    parallelogram(398, 136, 70, 50, 225, '#9CBF4E')
+    triangle(472, 118, 70, 180, '#00B2EE')
+    triangle(376, 108, 40, 270, '#912CEE')
+    triangle(452, 114, 40, 0, '#7D26CD')
 
-def hai():
+def runner():
     """
     Function, drawing human.
     :return: None
@@ -160,6 +160,18 @@ def helicopter():
     triangle(-457, 145, 50, 45, '#CCCACF')
     square(-570, 185, 50, 45, '#FF9A5E')
 
+def rocket():
+    """
+    Function, drawing rocket.
+    :return: None
+    """
+    triangle(-500, -10, 50, 45, '#CCCACF')
+    triangle(-502, -14, 75, 0, '#9CBF4E')
+    triangle(-502, -20, 100, -45, '#FF552B')
+    triangle(-426, -233, 100, 135, '#5BC78C')
+    square(-535, -200, 50, 45, '#FF9A5E')
+    parallelogram(-422, -234, 70, 50, 90, '#9CBF4E')
+    triangle(-538, -203, 50, -45, '#F2A0B6')
 
 def main():
     """
@@ -168,9 +180,10 @@ def main():
     """
     rabbit()
     rooster()
-    hei()
-    hai()
+    dancer()
+    runner()
     helicopter()
+    rocket()
     turtle.done()
 
 
