@@ -109,7 +109,7 @@ def rooster():
     """
     Function, drawing rooster.
     TODO: Lapochkin D.
-    :return:
+    :return: None
     """
     square(35, -115, 50, 0, '#5BC78C')
     triangle(35, -111, 45, 45, '#F2785C')
