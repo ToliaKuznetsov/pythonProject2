@@ -3,6 +3,7 @@
 #               Kuznetsov A. (0%),
 #               Krivoshapova D. (0%)
 import turtle
+
 turtle.setup(1200, 800)
 turtle.speed(20)
 
@@ -56,7 +57,7 @@ def triangle(x, y, a, ang, c):
     turtle.right(90)
     turtle.forward(a)
     turtle.right(135)
-    turtle.forward(a*2**.5)
+    turtle.forward(a * 2 ** .5)
     turtle.right(135)
     turtle.end_fill()
     turtle.right(ang)
@@ -97,7 +98,7 @@ def rabbit():
     :return: None
     """
     square(10, 260, 50, 0, '#FF9A5E')
-    parallelogram(-15, 264, 70, 50, 135,'#9CBF4E')
+    parallelogram(-15, 264, 70, 50, 135, '#9CBF4E')
     triangle(6, 255, 100, -90, '#FF552B')
     triangle(-94, 51, 100, 90, '#5BC78C')
     triangle(-15, 124, 75, -90, '#9CBF4E')
@@ -120,6 +121,21 @@ def rooster():
     parallelogram(-95, -138, 71, 35, -90, '#9CBF4E')
 
 
+def helicopter():
+    """
+    Function, drawing helicopter.
+    :return: None
+    """
+
+    parallelogram(-320, 285, 71, 35, 0, '#9CBF4E')
+    triangle(-455, 260, 75, 45, '#9CBF4E')
+    triangle(-350, 115, 100, 135, '#FF552B')
+    triangle(-345, 257, 100, -45, '#5BC78C')
+    triangle(-425, 185, 50, -135, '#F2A0B6')
+    triangle(-457, 145, 50, 45, '#CCCACF')
+    square(-570, 185, 50, 45, '#FF9A5E')
+
+
 def main():
     """
     Main function.
@@ -127,6 +143,7 @@ def main():
     """
     rabbit()
     rooster()
+    helicopter()
     turtle.done()
 
 
