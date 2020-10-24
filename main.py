@@ -20,7 +20,6 @@ def square(x, y, a, angle, color):
     """
     turtle.up()
     turtle.setposition(x, y)
-    turtle.setheading(angle)
     turtle.left(angle)
     turtle.color(color)
     turtle.down()
