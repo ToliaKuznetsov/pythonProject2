@@ -62,15 +62,15 @@ def triangle(x, y, a, ang, c):
     turtle.right(ang)
 
 
-def parallelogram(x, y, a, b, c, r):
+def parallelogram(x, y, a, b, r, c):
     """
     Function, drawing parallelogram.
     :param x: upper  obtuse angle coordinate x
     :param y: upper obtuse angle coordinate y
     :param a: long side of the parallelogram
     :param b: short side of the parallelogram
-    :param c: color
     :param r: degree of rotation relative OX
+    :param c: color
     """
     turtle.penup()
     turtle.color(c)
@@ -97,7 +97,7 @@ def rabbit():
     :return: None
     """
     square(10, 260, 50, 0, '#FF9A5E')
-    parallelogram(-15, 264, 70, 50, '#9CBF4E', 135)
+    parallelogram(-15, 264, 70, 50, 135,'#9CBF4E')
     triangle(6, 255, 100, -90, '#FF552B')
     triangle(-94, 51, 100, 90, '#5BC78C')
     triangle(-15, 124, 75, -90, '#9CBF4E')
@@ -117,7 +117,7 @@ def rooster():
     triangle(60, -269, 50, 135, '#F2A0B6')
     triangle(-119, -109, 100, 0, '#FF552B')
     triangle(-119, -105, 71, 45, '#D9ADC5')
-    parallelogram(-95, -138, 71, 35, '#9CBF4E', -90)
+    parallelogram(-95, -138, 71, 35, -90, '#9CBF4E')
 
 
 def main():
