@@ -125,7 +125,7 @@ def hei():
     Function, drawing human.
     :return: None
     """
-    square(400, 300, 50, 67.5, '#FF9A5E')
+    square(400, 300, 50, 135, '#FF9A5E')
     triangle(402,218,80,90,'#FFFF00')
     triangle(318, 298, 80, 360, '#FF0000')
     parallelogram(398, 166, 70, 50, 225, '#9CBF4E')
@@ -138,7 +138,7 @@ def hai():
     Function, drawing human.
     :return: None
     """
-    square(400, -100, 50, 67.5, '#FF9A5E')
+    square(400, -100, 50, 135, '#FF9A5E')
     triangle(380, -189, 85, 90, '#FF0000')
     parallelogram(376, -148, 58, 44, 225, '#9CBF4E')
     triangle(406, -169, 85, 270, '#FFFF00')
