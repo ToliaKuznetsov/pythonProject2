@@ -118,7 +118,33 @@ def rooster():
     triangle(-119, -109, 100, 0, '#FF552B')
     triangle(-119, -105, 71, 45, '#D9ADC5')
     parallelogram(-95, -138, 71, 35, -90, '#9CBF4E')
+def hei():
+    """
+    Function, drawing rabbit.
+    Tolian
+    :return: None
+    """
+    square(400, 300, 50, 67.5, '#FF9A5E')
+    triangle(402,218,80,90,'#FFFF00')
+    triangle(318, 298, 80, 360, '#FF0000')
+    parallelogram(398, 166, 70, 50, 225, '#9CBF4E')
+    triangle(472, 148, 70, 180, '#00B2EE')
+    triangle(376, 138, 40, 270, '#912CEE')
+    triangle(452, 144, 40, 0, '#7D26CD')
 
+def hai():
+    """
+    Function, drawing rabbit.
+    Tolian
+    :return: None
+    """
+    square(400, -100, 50, 67.5, '#FF9A5E')
+    triangle(380, -189, 85, 90, '#FF0000')
+    parallelogram(376, -148, 58, 44, 225, '#9CBF4E')
+    triangle(406, -169, 85, 270, '#FFFF00')
+    triangle(410, -220, 60, 315, '#00B2EE')
+    triangle(406, -340, 44, 135, '#912CEE')
+    triangle(282, -288, 44, 90, '#7D26CD')
 
 def main():
     """
@@ -127,6 +153,8 @@ def main():
     """
     rabbit()
     rooster()
+    hei()
+    hai()
     turtle.done()
 
 
