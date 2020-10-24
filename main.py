@@ -3,6 +3,8 @@
 #               Kuznetsov A. (0%),
 #               Krivoshapova D. (0%)
 import turtle
+turtle.setup(1200, 800)
+turtle.speed(20)
 
 
 def square(x, y, a, angle, color):
@@ -88,13 +90,45 @@ def parallelogram(x, y, a, b, c, r):
     turtle.right(r)
 
 
+def rabbit():
+    """
+    Function, drawing rabbit.
+    TODO: Lapochkin D.
+    :return: None
+    """
+    square(10, 260, 50, 0, '#FF9A5E')
+    parallelogram(-15, 264, 70, 50, '#9CBF4E', 135)
+    triangle(6, 255, 100, -90, '#FF552B')
+    triangle(-94, 51, 100, 90, '#5BC78C')
+    triangle(-15, 124, 75, -90, '#9CBF4E')
+    triangle(39, 49, 50, 180, '#F2A0B6')
+    triangle(10, 184, 50, -45, '#CCCACF')
+
+
+def rooster():
+    """
+    Function, drawing rooster.
+    TODO: Lapochkin D.
+    :return:
+    """
+    square(35, -115, 50, 0, '#5BC78C')
+    triangle(35, -111, 45, 45, '#F2785C')
+    triangle(-15, -269, 100, 90, '#9FAABF')
+    triangle(60, -269, 50, 135, '#F2A0B6')
+    triangle(-119, -109, 100, 0, '#FF552B')
+    triangle(-119, -105, 71, 45, '#D9ADC5')
+    parallelogram(-95, -138, 71, 35, '#9CBF4E', -90)
+
+
 def main():
     """
     Main function.
     :return: None
     """
-triangle(2,5,100,60,'red')
+    rabbit()
+    rooster()
+    turtle.done()
+
 
 if __name__ == '__main__':
-    main()
     main()
