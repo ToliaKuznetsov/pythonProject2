@@ -1,7 +1,7 @@
 # Case-study #1
 # Developers:   Lapochkin D. (25%),
 #               Kuznetsov A. (0%),
-#               Krivoshapova D. (0%)
+#               Krivoshapova D. (35%)
 import turtle
 
 turtle.setup(1200, 800)
