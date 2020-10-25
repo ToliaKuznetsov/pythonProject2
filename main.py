@@ -1,6 +1,6 @@
 # Case-study #1
 # Developers:   Lapochkin D. (25%),
-#               Kuznetsov A. (0%),
+#               Kuznetsov A. (30%),
 #               Krivoshapova D. (35%)
 import turtle
 
