@@ -126,12 +126,13 @@ def dancer():
     :return: None
     """
     square(400, 270, 50, 135, '#FF9A5E')
-    triangle(402,188,80,90,'#FFFF00')
+    triangle(402, 188, 80, 90, '#FFFF00')
     triangle(318, 268, 80, 360, '#FF0000')
     parallelogram(398, 136, 70, 50, 225, '#9CBF4E')
     triangle(472, 118, 70, 180, '#00B2EE')
     triangle(376, 108, 40, 270, '#912CEE')
     triangle(452, 114, 40, 0, '#7D26CD')
+
 
 def runner():
     """
@@ -146,32 +147,35 @@ def runner():
     triangle(406, -340, 44, 135, '#912CEE')
     triangle(282, -288, 44, 90, '#7D26CD')
 
+
 def helicopter():
     """
     Function, drawing helicopter.
     :return: None
     """
 
-    parallelogram(-320, 285, 71, 35, 0, '#9CBF4E')
-    triangle(-455, 260, 75, 45, '#9CBF4E')
-    triangle(-350, 115, 100, 135, '#FF552B')
-    triangle(-345, 257, 100, -45, '#5BC78C')
-    triangle(-425, 185, 50, -135, '#F2A0B6')
-    triangle(-457, 145, 50, 45, '#CCCACF')
+    parallelogram(-320, 285, 71, 35, 0, '#D8BFD8')
+    triangle(-455, 260, 75, 45, '#DB7093')
+    triangle(-350, 115, 100, 135, '#D3D3D3')
+    triangle(-345, 257, 100, -45, '#8FBC8F')
+    triangle(-425, 185, 50, -135, '#20B2AA')
+    triangle(-457, 145, 50, 45, '#CD5C5C')
     square(-570, 185, 50, 45, '#FF9A5E')
+
 
 def rocket():
     """
     Function, drawing rocket.
     :return: None
     """
-    triangle(-500, -10, 50, 45, '#CCCACF')
-    triangle(-502, -14, 75, 0, '#9CBF4E')
-    triangle(-502, -20, 100, -45, '#FF552B')
-    triangle(-426, -233, 100, 135, '#5BC78C')
+    triangle(-500, -10, 50, 45, '#20B2AA')
+    triangle(-502, -14, 75, 0, '#DB7093')
+    triangle(-502, -20, 100, -45, '#D3D3D3')
+    triangle(-426, -233, 100, 135, '#8FBC8F')
     square(-535, -200, 50, 45, '#FF9A5E')
-    parallelogram(-422, -234, 70, 50, 90, '#9CBF4E')
-    triangle(-538, -203, 50, -45, '#F2A0B6')
+    parallelogram(-422, -234, 70, 50, 90, '#D8BFD8')
+    triangle(-538, -203, 50, -45, '#CD5C5C')
+
 
 def main():
     """
